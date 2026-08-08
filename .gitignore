@@ -1,0 +1,48 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode user-specific data
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Xcode build output
+build/
+DerivedData/
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Xcode local workspace state
+*.xcworkspace/xcuserdata/
+
+# SourceKit
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+
+# Credentials and private signing material
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
+*.key
+*.pem
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+Secrets.plist
+secrets.plist
+
+# Temporary files
+*.tmp
+*.swp
+*~

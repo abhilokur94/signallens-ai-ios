@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F5B9C880A36845E2AE6DC0A /* IncidentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867142C0A44506E324195A5D /* IncidentsView.swift */; };
+		1BCAA04759DA5F5DF76798CB /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D9B45FBF69B96A76CCFA3 /* AppModel.swift */; };
+		683CBB82632CE763707F1211 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AD571445A46C4330BD7CA3 /* DashboardView.swift */; };
+		70539B3C689EAD2C2004A968 /* SignalLensTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E74AD3C128A5689A76C42B /* SignalLensTheme.swift */; };
+		8A860EB82F1F9B504B0E2AFF /* DemoLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A8822A49D8A33DD2ED849C /* DemoLabView.swift */; };
+		8B5DA6E8B8A2D4628543230D /* IncidentEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A326FE4A9981284BDB2302 /* IncidentEngineTests.swift */; };
+		911B76B87A5BFC79DF33F88D /* TelemetryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4BA7F6F654B11D219A261 /* TelemetryStore.swift */; };
+		9FB66E6A57A76804E75CC87F /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2193939F1D4492DB681475 /* PrivacyView.swift */; };
+		9FF54CD456CEEB8CA5B8CD58 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9E7511D1593A674A91DB83 /* TimelineView.swift */; };
+		A771E894803FA4E12D404593 /* DomainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B2BA094114398C408B9BF9 /* DomainModels.swift */; };
+		B31B0D97FFEAA61648E10B57 /* IncidentEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C045D12E6A882A564BA1B6A9 /* IncidentEngine.swift */; };
+		B4612778888EB4C289C88616 /* SecureReportVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487BC1142C95DD5BD7C9FF4E /* SecureReportVault.swift */; };
+		C55DFB59EB9904DF48F27637 /* SignalLensAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BCD120B1CDA605DACC32C8 /* SignalLensAIApp.swift */; };
+		CDD90917F440A6D2FD64235E /* NetworkPathMonitoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9127937788134A3E6F523E26 /* NetworkPathMonitoring.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9165965E2DEAACBAC4FD615C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F9BE75491D3BA99071B30AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9D02615EC89D8898A765F0;
+			remoteInfo = SignalLensAI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A4BA7F6F654B11D219A261 /* TelemetryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetryStore.swift; sourceTree = "<group>"; };
+		139A223CEEBE0473A4E43C9B /* SignalLensAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalLensAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B2BA094114398C408B9BF9 /* DomainModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainModels.swift; sourceTree = "<group>"; };
+		26B193A6D4AA4D046BEE58DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		38BCD120B1CDA605DACC32C8 /* SignalLensAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalLensAIApp.swift; sourceTree = "<group>"; };
+		39A8822A49D8A33DD2ED849C /* DemoLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoLabView.swift; sourceTree = "<group>"; };
+		487BC1142C95DD5BD7C9FF4E /* SecureReportVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureReportVault.swift; sourceTree = "<group>"; };
+		81E74AD3C128A5689A76C42B /* SignalLensTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalLensTheme.swift; sourceTree = "<group>"; };
+		867142C0A44506E324195A5D /* IncidentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentsView.swift; sourceTree = "<group>"; };
+		9127937788134A3E6F523E26 /* NetworkPathMonitoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPathMonitoring.swift; sourceTree = "<group>"; };
+		9A2193939F1D4492DB681475 /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		BE9E7511D1593A674A91DB83 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		C045D12E6A882A564BA1B6A9 /* IncidentEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentEngine.swift; sourceTree = "<group>"; };
+		D15D9B45FBF69B96A76CCFA3 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		D2AD571445A46C4330BD7CA3 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		DCA3596CF91BD6440F06E2CC /* SignalLens AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SignalLens AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A326FE4A9981284BDB2302 /* IncidentEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentEngineTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		09EB1618340B83A5F4E49150 /* DemoLab */ = {
+			isa = PBXGroup;
+			children = (
+				39A8822A49D8A33DD2ED849C /* DemoLabView.swift */,
+			);
+			path = DemoLab;
+			sourceTree = "<group>";
+		};
+		0F4D68B660B70E83D168F905 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				D2AD571445A46C4330BD7CA3 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		386116B81D313B2F3476E5D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20B2BA094114398C408B9BF9 /* DomainModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8148670C789047814218D091 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				487BC1142C95DD5BD7C9FF4E /* SecureReportVault.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		8B05A7230DACAF11AFA070F0 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				BE9E7511D1593A674A91DB83 /* TimelineView.swift */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		9375F060F7EEA526E5695708 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				81E74AD3C128A5689A76C42B /* SignalLensTheme.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		94C69B9A73DC2B9D6EF4E176 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B2EFAC6CDACBE9C1783DA513 /* Analysis */,
+				9375F060F7EEA526E5695708 /* DesignSystem */,
+				386116B81D313B2F3476E5D7 /* Models */,
+				D9FA3C53B53AD09A9FCCAEC8 /* Network */,
+				AC77ED709A476BC753D461ED /* Persistence */,
+				8148670C789047814218D091 /* Security */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		958775F4FC0B5B1FB05F96BC /* SignalLensAI */ = {
+			isa = PBXGroup;
+			children = (
+				DC798E9DB038305E8D6D0477 /* App */,
+				94C69B9A73DC2B9D6EF4E176 /* Core */,
+				967E3554559ED605349893E7 /* Features */,
+				AC0E0F4763F0A4CE04A86020 /* Resources */,
+			);
+			path = SignalLensAI;
+			sourceTree = "<group>";
+		};
+		967E3554559ED605349893E7 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				0F4D68B660B70E83D168F905 /* Dashboard */,
+				09EB1618340B83A5F4E49150 /* DemoLab */,
+				EB0F153C50F3D7B911670AE2 /* Incidents */,
+				CEBE4C94D069196FF3273833 /* Privacy */,
+				8B05A7230DACAF11AFA070F0 /* Timeline */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		AC0E0F4763F0A4CE04A86020 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				26B193A6D4AA4D046BEE58DC /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC77ED709A476BC753D461ED /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				01A4BA7F6F654B11D219A261 /* TelemetryStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		B2EFAC6CDACBE9C1783DA513 /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				C045D12E6A882A564BA1B6A9 /* IncidentEngine.swift */,
+			);
+			path = Analysis;
+			sourceTree = "<group>";
+		};
+		C12CDD14D265CA10A2B6BFDD /* SignalLensAITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8A326FE4A9981284BDB2302 /* IncidentEngineTests.swift */,
+			);
+			path = SignalLensAITests;
+			sourceTree = "<group>";
+		};
+		CEBE4C94D069196FF3273833 /* Privacy */ = {
+			isa = PBXGroup;
+			children = (
+				9A2193939F1D4492DB681475 /* PrivacyView.swift */,
+			);
+			path = Privacy;
+			sourceTree = "<group>";
+		};
+		D9FA3C53B53AD09A9FCCAEC8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9127937788134A3E6F523E26 /* NetworkPathMonitoring.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DA5723537A86FDA754FB3B49 = {
+			isa = PBXGroup;
+			children = (
+				958775F4FC0B5B1FB05F96BC /* SignalLensAI */,
+				C12CDD14D265CA10A2B6BFDD /* SignalLensAITests */,
+				E8F772B7F24CEF58411C0AD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC798E9DB038305E8D6D0477 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D15D9B45FBF69B96A76CCFA3 /* AppModel.swift */,
+				38BCD120B1CDA605DACC32C8 /* SignalLensAIApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E8F772B7F24CEF58411C0AD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCA3596CF91BD6440F06E2CC /* SignalLens AI.app */,
+				139A223CEEBE0473A4E43C9B /* SignalLensAITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB0F153C50F3D7B911670AE2 /* Incidents */ = {
+			isa = PBXGroup;
+			children = (
+				867142C0A44506E324195A5D /* IncidentsView.swift */,
+			);
+			path = Incidents;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A9D02615EC89D8898A765F0 /* SignalLensAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AFB3C27D58078537936BBCA /* Build configuration list for PBXNativeTarget "SignalLensAI" */;
+			buildPhases = (
+				58147AD2162F661ED7C42DD4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignalLensAI;
+			packageProductDependencies = (
+			);
+			productName = SignalLensAI;
+			productReference = DCA3596CF91BD6440F06E2CC /* SignalLens AI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC7F0F97B0A7DE5D08FB0902 /* SignalLensAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0A25ED75C9A4BBA907DE7E1 /* Build configuration list for PBXNativeTarget "SignalLensAITests" */;
+			buildPhases = (
+				70E05EAEC5D08FE050097C5D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1F0B79B6C99DA67A0F0CCF6 /* PBXTargetDependency */,
+			);
+			name = SignalLensAITests;
+			packageProductDependencies = (
+			);
+			productName = SignalLensAITests;
+			productReference = 139A223CEEBE0473A4E43C9B /* SignalLensAITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F9BE75491D3BA99071B30AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					0A9D02615EC89D8898A765F0 = {
+						ProvisioningStyle = Automatic;
+					};
+					BC7F0F97B0A7DE5D08FB0902 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 32482AB19F86629B4AA9FA54 /* Build configuration list for PBXProject "SignalLensAI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = DA5723537A86FDA754FB3B49;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E8F772B7F24CEF58411C0AD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A9D02615EC89D8898A765F0 /* SignalLensAI */,
+				BC7F0F97B0A7DE5D08FB0902 /* SignalLensAITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58147AD2162F661ED7C42DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BCAA04759DA5F5DF76798CB /* AppModel.swift in Sources */,
+				683CBB82632CE763707F1211 /* DashboardView.swift in Sources */,
+				8A860EB82F1F9B504B0E2AFF /* DemoLabView.swift in Sources */,
+				A771E894803FA4E12D404593 /* DomainModels.swift in Sources */,
+				B31B0D97FFEAA61648E10B57 /* IncidentEngine.swift in Sources */,
+				0F5B9C880A36845E2AE6DC0A /* IncidentsView.swift in Sources */,
+				CDD90917F440A6D2FD64235E /* NetworkPathMonitoring.swift in Sources */,
+				9FB66E6A57A76804E75CC87F /* PrivacyView.swift in Sources */,
+				B4612778888EB4C289C88616 /* SecureReportVault.swift in Sources */,
+				C55DFB59EB9904DF48F27637 /* SignalLensAIApp.swift in Sources */,
+				70539B3C689EAD2C2004A968 /* SignalLensTheme.swift in Sources */,
+				911B76B87A5BFC79DF33F88D /* TelemetryStore.swift in Sources */,
+				9FF54CD456CEEB8CA5B8CD58 /* TimelineView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E05EAEC5D08FE050097C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5DA6E8B8A2D4628543230D /* IncidentEngineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1F0B79B6C99DA67A0F0CCF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A9D02615EC89D8898A765F0 /* SignalLensAI */;
+			targetProxy = 9165965E2DEAACBAC4FD615C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F0EC9FB175DD64426FA7EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhisheklokur.SignalLensAITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignalLensAI.app/SignalLensAI";
+			};
+			name = Release;
+		};
+		4A2028F39DA53A30F36CAD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = RBH99497GU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SignalLensAI/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhisheklokur.SignalLensAI;
+				PRODUCT_NAME = "SignalLens AI";
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5392C4ADCEE745CFD957A2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		56D92E58B4A0F08D6D4B48E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = RBH99497GU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SignalLensAI/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhisheklokur.SignalLensAI;
+				PRODUCT_NAME = "SignalLens AI";
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E28F5E5E73C5962BF3C78586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhisheklokur.SignalLensAITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignalLensAI.app/SignalLensAI";
+			};
+			name = Debug;
+		};
+		F27B8C7717C06D209C3E0B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32482AB19F86629B4AA9FA54 /* Build configuration list for PBXProject "SignalLensAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5392C4ADCEE745CFD957A2AA /* Debug */,
+				F27B8C7717C06D209C3E0B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8AFB3C27D58078537936BBCA /* Build configuration list for PBXNativeTarget "SignalLensAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2028F39DA53A30F36CAD1E /* Debug */,
+				56D92E58B4A0F08D6D4B48E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D0A25ED75C9A4BBA907DE7E1 /* Build configuration list for PBXNativeTarget "SignalLensAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28F5E5E73C5962BF3C78586 /* Debug */,
+				3F0EC9FB175DD64426FA7EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F9BE75491D3BA99071B30AC /* Project object */;
+}
