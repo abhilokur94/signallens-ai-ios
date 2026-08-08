@@ -35,7 +35,7 @@
 
 /* Begin PBXFileReference section */
 		01A4BA7F6F654B11D219A261 /* TelemetryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetryStore.swift; sourceTree = "<group>"; };
-		139A223CEEBE0473A4E43C9B /* SignalLensAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalLensAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		139A223CEEBE0473A4E43C9B /* SignalLensAITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SignalLensAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B2BA094114398C408B9BF9 /* DomainModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainModels.swift; sourceTree = "<group>"; };
 		26B193A6D4AA4D046BEE58DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		38BCD120B1CDA605DACC32C8 /* SignalLensAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalLensAIApp.swift; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		C045D12E6A882A564BA1B6A9 /* IncidentEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentEngine.swift; sourceTree = "<group>"; };
 		D15D9B45FBF69B96A76CCFA3 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		D2AD571445A46C4330BD7CA3 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
-		DCA3596CF91BD6440F06E2CC /* SignalLens AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SignalLens AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA3596CF91BD6440F06E2CC /* SignalLensAI.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SignalLensAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A326FE4A9981284BDB2302 /* IncidentEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentEngineTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -207,7 +207,7 @@
 		E8F772B7F24CEF58411C0AD7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DCA3596CF91BD6440F06E2CC /* SignalLens AI.app */,
+				DCA3596CF91BD6440F06E2CC /* SignalLensAI.app */,
 				139A223CEEBE0473A4E43C9B /* SignalLensAITests.xctest */,
 			);
 			name = Products;
@@ -238,7 +238,7 @@
 			packageProductDependencies = (
 			);
 			productName = SignalLensAI;
-			productReference = DCA3596CF91BD6440F06E2CC /* SignalLens AI.app */;
+			productReference = DCA3596CF91BD6440F06E2CC /* SignalLensAI.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BC7F0F97B0A7DE5D08FB0902 /* SignalLensAITests */ = {
@@ -266,9 +266,10 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 2660;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					0A9D02615EC89D8898A765F0 = {
+						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
 					};
 					BC7F0F97B0A7DE5D08FB0902 = {
@@ -358,9 +359,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "";
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = RBH99497GU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SignalLensAI/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -368,7 +367,6 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.abhisheklokur.SignalLensAI;
-				PRODUCT_NAME = "SignalLens AI";
 				SDKROOT = iphoneos;
 				SWIFT_STRICT_CONCURRENCY = complete;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -379,7 +377,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -438,7 +435,6 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 6.0;
@@ -449,9 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "";
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = RBH99497GU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SignalLensAI/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,7 +453,6 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.abhisheklokur.SignalLensAI;
-				PRODUCT_NAME = "SignalLens AI";
 				SDKROOT = iphoneos;
 				SWIFT_STRICT_CONCURRENCY = complete;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -487,7 +480,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -539,7 +531,6 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 6.0;
